@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-       System.out.println("   Задача 1");
+        System.out.println("Задача 1");
         byte clientOS = 0;
         switch (clientOS) {
             case 0:
@@ -12,9 +12,9 @@ public class Main {
             default:
                 System.out.println("Установите версию приложения для Android по ссылке");
         }
-       System.out.println("   Задача 2");
+        System.out.println("Задача 2");
         int clientDeviceYear = 2015;
-        int clientOS2 = 0;
+        int clientOS2 = 1;
         if (clientDeviceYear >= 2015) {
             switch (clientOS2) {
                 case 0:
@@ -22,15 +22,15 @@ public class Main {
                     break;
                 default:
                     System.out.println("Установите версию приложения для Android по ссылке");
-        }} else {
+            }} else {
             switch (clientOS2) {
                 case 0:
                     System.out.println("Установите облегченную версию приложения для iOS по ссылке");
                     break;
                 default:
                     System.out.println("Установите облегченную версию приложения для Android по ссылке");
-        }}
-       System.out.println("   Задача 3");
+            }}
+        System.out.println("Задача 3");
         float year = 2021f;
         if (year < 1584) {
             System.out.println("Високосный год был введён только в 1584 году, выберите другой год");
@@ -39,7 +39,7 @@ public class Main {
         } else {
             System.out.println("Год не является високосным");
         }
-       System.out.println("   Задача 4");
+        System.out.println("Задача 4");
         int deliveryDistance = 95;
         int deliveryDay = 0;
         if (deliveryDistance <= 20) {
@@ -54,7 +54,7 @@ public class Main {
         } else {
             System.out.println("доставки нет");
         }
-       System.out.println("   Задача 5");
+        System.out.println("Задача 5");
         int monthNumber = 12;
         switch (monthNumber)  {
             case 12:
